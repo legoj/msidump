@@ -1,8 +1,5 @@
-# msitools
-Custom command-line tools for MSI file checking
-
-## msidump utility
-command for dumping MSI database information of the specified MSI file.
+# msidump
+commandline utility for dumping MSI database information of the specified MSI file.
 
 ### Usage:
 ` msidump.exe [/f] msiPath [/t table1;table2...] [/l table;store] [/x xslFilePath] [/o outputDirectory] `
