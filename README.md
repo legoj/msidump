@@ -25,4 +25,4 @@ commandline utility for dumping MSI database information of the specified MSI fi
 `$>msidump /d RTM=mps_rtm.msi.mxl B05=mps_b05.msi.mxl `
 >      dumps all the changes made on the tables between RTM and B05.
 
-*source code to be added later*
+
