@@ -1,5 +1,6 @@
 # msidump
-commandline utility for dumping MSI database information of the specified MSI file.
+commandline utility for dumping MSI database information of the specified MSI file into an XML file format. it also dumps the Summary Information Stream info and provides an option to compare or diff 2 msidump XML files. 
+this tool was created to help build test engineers in doing static analysis of the MSI builds esp in detecting changes in between MSI builds. it was also found to be very useful in detecting regressions i.e. changes being accidentally removed from the build etc... 
 
 ### Usage:
 ` msidump.exe [/f] msiPath [/t table1;table2...] [/l table;store] [/x xslFilePath] [/o outputDirectory] `
