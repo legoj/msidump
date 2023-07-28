@@ -23,7 +23,7 @@ this tool was created to help build test engineers in doing static analysis of t
 
 `$>msidump c:\tmp\mps.msi `
 >      dumps all tables and transform views to the same directory as the msi file.
-`$>msidump /d RTM=mps_rtm.msi.mxl B05=mps_b05.msi.mxl `
+`$>msidump /d RTM=mps_rtm.msi.xml B05=mps_b05.msi.xml `
 >      dumps all the changes made on the tables between RTM and B05.
 
 
